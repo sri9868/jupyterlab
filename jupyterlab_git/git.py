@@ -1158,7 +1158,7 @@ class Git:
         """
         Execute git init command & return the result.
         """
-        if self.cwd == 'D:/Hex_SCHED/test/a/jupyterlab-git':
+        if self.cwd == 'D:/Hex_SCHED/test/a/jupyterlab':
             message = 'Cannot create a Git repository in the top-level directory.'
             options = {'title': 'Restricted Directory'}
             showDialog({ 'message': message }, options=options)
